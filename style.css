@@ -1,0 +1,257 @@
+*{
+    background-color: black;
+    color: rgb(220, 223, 225);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wow{
+    display: flex;
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+.div{
+    display: flex ;
+ align-items: center;
+ justify-content: space-evenly;
+ 
+}
+
+.one::before {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Adjust the position of the line according to your design */
+    left: 0;
+    width: 0; /* Initially, the line has no width */
+    height: 2px; /* Set the height and color of the line */
+    background-color: #d5e4f4; /* Set the line color */
+    transition: width 0.3s ease; /* Add a transition effect for smooth animation */
+}
+.one:hover::before{
+width: 100%;
+}
+.one{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+ text-decoration: none;
+ color: aliceblue;
+}
+.two{
+    margin-right: 20px;
+}
+.three{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+.three:hover{
+    background-color: rgb(72, 79, 86);
+}
+.four{
+    margin-right: 60px;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+.four:hover{
+    background-color: rgb(69, 77, 84);
+}
+h1{
+    font-size: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.first{
+    margin-top: 2px;
+    margin-left: 250px;
+    margin-bottom: 2px;
+}
+.jake{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2px;
+  margin-right: 500px;
+  margin-bottom: 50px;
+}
+.jakeone{
+    padding: 7px;
+    margin-right: 15px;
+}
+.jakeone:hover{
+    background-color: rgb(66, 74, 81);
+}
+.imgnida{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.catherine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.catone{
+    margin-right:50px;
+    margin-left: 500px;
+    font-size: 19px;
+}
+.mathew{
+    font-size: 40px;
+}
+.chand{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+ .ball{
+    display: flex;
+    margin-right: 60px;
+    margin-left: 60px;
+    justify-content: space-between;
+ }  
+ .usmanone{
+
+background-color: #0000FF;
+
+ } 
+ .usman{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #0000FF;
+    font-size: 35px;
+ }
+ .usmantwo{
+    
+    background-color: #0000FF;
+    font-size: 20px;
+    margin-right: 10PX;
+    margin-left: 400px;
+ }
+ .usmanmaggi{
+    background-color: #0000FF;
+    font-size: 30px;
+ }
+ .usmanplx{
+    background-color: #0000FF;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+ }
+ 
+ .nidamoney{
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .chai{
+    font-size: 18px;
+ }
+ .nidabrt{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .chaisamosa{
+    font-size: 15px;
+    margin-right: 30px;
+    margin-left: 80px;
+ }
+ .chaisamosaone{
+    font-size: 15px;
+    margin-right: 30px;
+    margin-left: 120px;
+ }
+ .nidabrttwo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .nidabrtoops{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .chaisamosatwo{
+        font-size: 18px;
+        margin-left: 88px;
+ }
+ .class{
+    width: 100%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 8px; /* Set the height of the horizontal rule */
+    background-color: #eee6e6;
+ }
+ .classone{
+    width: 100%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 8px; /* Set the height of the horizontal rule */
+    background-color: #111010;
+ }
+ .classdiff{
+    width: 100%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 6px; /* Set the height of the horizontal rule */
+    background-color: #eee6e6;
+ }
+ .classonediff{
+    width: 60%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 6px; /* Set the height of the horizontal rule */
+    background-color: #111010;
+ }
+ .classseven{
+    width: 100%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 4px; /* Set the height of the horizontal rule */
+    background-color: #eee6e6;
+ }
+ .classsix{
+    width: 60%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 4px; /* Set the height of the horizontal rule */
+    background-color: #111010;
+ }
+
+
+ .classsteve{
+    width: 100%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height of the horizontal rule */
+    background-color: #eee6e6;
+ }
+ .classsafe{
+    width: 100%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height of the horizontal rule */
+    background-color: #111010;
+ }
+
+
+ .end{
+    width: 100%; /* You can adjust this value to set the width as a percentage of the parent container */
+    margin: 0 auto; /* Center the horizontal rule */
+    border: none; /* Remove the default border */
+    height: 200px; /* Set the height of the horizontal rule */
+    background-color: #f6f0f0;
+ }
